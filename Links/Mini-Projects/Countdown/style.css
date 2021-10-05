@@ -1,0 +1,60 @@
+
+/* Main Section */
+
+.container-fluid {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 0;
+}
+.dark-colored-section {
+    background-color: #d1cfcf;
+    padding: 3% 10% 1%;
+    border-bottom: 1px solid #6B7AA1;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #11324D !important;
+    padding-left: 0;
+    padding-bottom: 3px;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    width: fit-content;
+    border-color: #11324D;
+}
+.nav-item, .nav-link {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #11324D !important;
+}
+
+/* Countdown Section */
+
+#countdown-section {
+    font-family: 'Dancing Script', cursive;
+    background-image: url("new-years.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: rgb(204, 200, 218);
+    
+}
+
+@media (max-width: 768px) {
+    .countdown-container {
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+}
+h1 {
+    font-size: 5rem;
+    color: rgb(243, 239, 239);
+}
+.digits {
+    font-size: 6rem;
+    font-weight: bolder;
+    margin: 20px 0 0 0;
+}

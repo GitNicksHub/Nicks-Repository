@@ -1,0 +1,54 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Main Section */
+
+.container-fluid {
+    padding: 0 0;
+}
+.dark-colored-section {
+    background-color: #d1cfcf;
+    padding: 3% 10% 1%;
+    border-bottom: 1px solid #6B7AA1;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #11324D !important;
+    padding-left: 0;
+    padding-bottom: 3px;
+            border-bottom-style: solid;
+            border-bottom-width: 4px;
+            width: fit-content;
+            border-color: #11324D;
+    
+}
+.btn-group {
+    margin-bottom: 5%;
+    overflow: visible;
+}
+.nav-item, .nav-link {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0 10px;
+    color: #11324D !important;
+}
+
+
+/* Education Section */
+
+.education-section {
+    background-color: #fdfdfd;
+    padding: 4% 10% 5%;
+}
+h4 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+th, td {
+    border: 1px solid #11324D;
+    text-align: left;
+    padding: 8px;
+  }

@@ -1,0 +1,104 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Main Section */
+
+.container-fluid {
+    padding: 0 0;
+}
+.dark-colored-section {
+    background-color: #d1cfcf;
+    padding: 3% 10% 1%;
+    border-bottom: 1px solid #6b7aa1b2;
+}
+.main-light-colored-section {
+    background-color: rgba(0, 0, 0, 0.089);
+    padding: 15px 10%;
+}
+.light-colored-section {
+    background-color: rgba(0, 0, 0, 0.089);
+    text-align: center;
+    padding: 45px 0;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #11324D !important;
+    padding-left: 0;
+    padding-bottom: 3px;
+            border-bottom-style: solid;
+            border-bottom-width: 4px;
+            width: fit-content;
+            border-color: #11324D;
+}
+.btn-group {
+    margin-bottom: 5%;
+    
+    overflow: visible;
+}
+.nav-item, .nav-link {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0 10px;
+    color: #11324D !important;
+}
+.dropdown-menu {
+    background-color: #e7e7e7;
+}
+.dropdown-item {     
+    background-color:#e7e7e7 !important;
+    text-decoration: underline;
+}
+.download-title-1 {
+    display: inline-block;
+    margin-left: 25%;
+    font-weight: lighter;
+    text-align: center;
+    color: #11324D;
+}
+.rest-of-download-titles, h1 {
+    display: inline-block;
+    font-weight: lighter;
+    text-align: center;
+    color: #11324D;
+}
+
+/* Download Card Section */
+
+#download-nature-section {
+    padding: 3% 10% 1%;
+    background: rgb(212, 212, 214);
+}
+#download-tradition-section {
+    padding: 3% 10% 1%;
+    background: rgb(212, 212, 214);
+}
+#download-food-section {
+    padding: 3% 10% 1%;
+    background: rgb(212, 212, 214);
+}
+#download-sport-section {
+    padding: 3% 10% 1%;
+    background: rgb(212, 212, 214);
+}
+.card-img-top {
+    width: 100%;
+    height: 25vh;               /*------------------Problem------------------*/
+}
+.card-body {
+    padding: 5px;
+}
+.overlay-btn:hover {
+   background: rgb(116, 115, 115);
+}
+.download-icon {
+    padding-top: 1px;
+}
+.scrol-top-button {
+    display: inline-block;
+    position: relative;
+    left: 95%;
+    margin: 10px 0 40px;
+}
