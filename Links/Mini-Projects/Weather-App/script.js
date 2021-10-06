@@ -1,6 +1,6 @@
 // <!-- -----------------------------------app-section-------------------------------------- -->
 
-const url = "http://api.openweathermap.org/data/2.5/"
+const url = "https://api.openweathermap.org/data/2.5/"
 const key = "c848ad4eafe0442e2c0c226153263c24"
 
 const setQuery = (e) => {
