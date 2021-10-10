@@ -53,6 +53,9 @@ body {
     color: #fff;
     padding: 25px 15px 25px 133px;
 }
+.resume-title h2 {
+ word-wrap: break-word;
+}
 .padding-sides {
     padding: 15px 15px 15px 120px;
 }
